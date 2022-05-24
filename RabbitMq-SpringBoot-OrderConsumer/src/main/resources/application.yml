@@ -1,0 +1,13 @@
+#服务端口
+server:
+  port: 8081
+
+
+#配置rabbitmq服务
+spring:
+  rabbitmq:
+    username: admin
+    password: admin
+    virtual-host: /
+    host: 192.168.124.4
+    port: 5672
