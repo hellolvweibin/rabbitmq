@@ -23,4 +23,11 @@ class RabbitMqSpringBootApplicationTests {
         orderService.makeOrderDirect("1","1",12);
     }
 
+    @Test
+    void testTopicOrder() {
+
+        orderService.makeOrderTopic("1","1",12);
+    }
+
+
 }

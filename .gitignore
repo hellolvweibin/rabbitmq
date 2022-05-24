@@ -2,3 +2,4 @@
 /RabbitMq-SpringBoot-OrderConsumer/target/
 /RabbitMq-SpringBoot-OrderProducer/target/
 /target/
+.idea
